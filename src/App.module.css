@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headerContainer {
+    max-width: 900px;
+    margin: 45px auto;
+  
+}
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+
+}
+.container .leftSide {
+    flex: 1;
+    
+    margin-right: 40px;
+}
+.container .leftSide h1 {
+    margin: 0;
+    font-size: 40px;
+    color: #3a4b5c;
+    margin-bottom: 20px;
+
+}
+.container .leftSide p {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: #6a7d8b;
+    
+}
+.container .leftSide input {
+    border: 0;
+    border-bottom: 2px solid rgba(150, 163, 171, .5);
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    outline: 0;
+}   
+.container .leftSide button {
+    background-color:#227c9d ;
+    color:#fff;
+    font-size: 15px;
+    padding: 15px 0;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 0;
+    transition: all ease 0.5s;
+
+}
+.container .leftSide button:hover {
+    opacity: 0.5;
+}
+.container .rightSide {
+    flex: 1;
+    display: flex;
+    margin-left: 40px;
+}
+.container .rightSide .grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 20px;
+}
